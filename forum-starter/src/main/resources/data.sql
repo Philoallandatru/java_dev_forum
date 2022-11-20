@@ -223,6 +223,6 @@ COMMIT;
 
 
 BEGIN;
-INSERT INTO `forum_user`(`id`, `email`, `nickname`, `password`, `role`, `state`, `sex`, `avatar`, `signature`, `last_login_time`, `is_delete`, `create_at`, `update_at`) VALUES (1, 'admin@developers.pub', '管理员-0', '711475695fde28fc68fb2547cd2cf2ef', 'ADMIN', 'ENABLE', 'UNKNOWN', '', '开发者客栈管理员', '2020-10-01 14:00:01', 0, '2020-10-01 08:00:01', '2020-10-01 08:00:01');
-INSERT INTO `forum_user`(`id`, `email`, `nickname`, `password`, `role`, `state`, `sex`, `avatar`, `signature`, `last_login_time`, `is_delete`, `create_at`, `update_at`) VALUES (2, 'superadmin@developers.pub', '开发者客栈', '711475695fde28fc68fb2547cd2cf2ef', 'SUPER_ADMIN', 'ENABLE', 'UNKNOWN', '', '开发者客栈官方超级管理员', '2020-10-01 14:00:01', 0, '2020-10-01 08:00:01', '2020-10-01 08:00:01');
+INSERT INTO `forum_user`(`id`, `email`, `nickname`, `password`, `role`, `state`, `sex`, `avatar`, `signature`, `last_login_time`, `is_delete`, `create_at`, `update_at`) VALUES (1, 'admin@developers.pub', '管理员-0', '711475695fde28fc68fb2547cd2cf2ef', 'ADMIN', 'ENABLE', 'UNKNOWN', '', '1024论坛管理员', '2022-11-01 14:00:01', 0, '2020-10-01 08:00:01', '2020-10-01 08:00:01');
+INSERT INTO `forum_user`(`id`, `email`, `nickname`, `password`, `role`, `state`, `sex`, `avatar`, `signature`, `last_login_time`, `is_delete`, `create_at`, `update_at`) VALUES (2, 'superadmin@developers.pub', '1024论坛', '711475695fde28fc68fb2547cd2cf2ef', 'SUPER_ADMIN', 'ENABLE', 'UNKNOWN', '', '1024论坛官方超级管理员', '2022-11-01 14:00:01', 0, '2020-10-01 08:00:01', '2020-10-01 08:00:01');
 COMMIT;
